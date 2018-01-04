@@ -18,12 +18,16 @@
 - 1、引入markmapview.js；在文档中插入一个svg标签
 - 2、使用markmapviey函数生成markdown标题树
 
-		//svgTagId string 插入到文档中的svg标签的id
-		//text string markdown文档内容
-		markmapview(svgTagId, text);
+````javascript
+//svgTagId string 插入到文档中的svg标签的id
+//text string markdown文档内容
+markmapview(svgTagId, text);
+````
 
 - 3、使用markmapvieyFromUrl函数生成markdown标题树。异步请求文档资源
 
-		//svgTagId string 插入到文档中的svg标签的id
-		//url string markdown文档资源链接
-		markmapviewFromUrl(svgTagId, url);
+````javascript
+//svgTagId string 插入到文档中的svg标签的id
+//url string markdown文档资源链接
+markmapviewFromUrl(svgTagId, url);
+````
